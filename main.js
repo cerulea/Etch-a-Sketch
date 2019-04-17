@@ -70,9 +70,11 @@ function changeColor(e) {
 
     if (!sketchModeCheckbox.checked && coloringStyleSelection.value === "normal") {
         e.target.style.backgroundColor = getNormalColor();
+        e.target.style.opacity = "";
     }
     else if (!sketchModeCheckbox.checked && coloringStyleSelection.value === "random-colors") {
         e.target.style.backgroundColor = getRandomColor();
+        e.target.style.opacity = "";
     }
     else if (sketchModeCheckbox.checked && coloringStyleSelection.value === "normal") {
 
