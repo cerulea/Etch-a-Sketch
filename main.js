@@ -1,5 +1,5 @@
 let ROWS = COLUMNS = 7;
-let MAIN_CONTAINER_DIMENSIONS = 700; // width and height of main container box, in px
+let MAIN_CONTAINER_DIMENSIONS = 600; // width and height of main container box, in px
 
 const container = document.querySelector("#main-container");
 setContainerDimensions(container);
